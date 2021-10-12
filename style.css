@@ -348,3 +348,34 @@ address,caption,cite,code,dfn,em,strong,th,var {
         height: 1800px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .feat-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 1000px;
+        margin: 0;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    .feat.pos1, .feat.pos2, .feat.pos3, .feat.pos4{
+        position: relative;
+        height: auto;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .intro-box{
+        position: relative;
+        width: 80%;height: 50%;
+        left: 5%;
+        top: -500px;
+    }
+
+    html{
+        height: 2200px;
+    }
+}
